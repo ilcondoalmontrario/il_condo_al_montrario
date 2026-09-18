@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Project</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Sep 2026 10:34:21 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Esempi di utilizzo markdown</title>
+      <link>http://localhost:1313/posts/esempi_di_utilizzo_markdown/</link>
+      <pubDate>Fri, 18 Sep 2026 10:34:21 +0200</pubDate>
+      <guid>http://localhost:1313/posts/esempi_di_utilizzo_markdown/</guid>
+      <description>&lt;p&gt;Qui inizia il contenuto vero e proprio del post&amp;hellip;&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Colonna 1&lt;/th&gt;
+					&lt;th&gt;Colonna 2&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;dato 1&lt;/td&gt;
+					&lt;td&gt;dato 2&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;code&gt;codice inline&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# blocco di codice con syntax highlighting&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ciao&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Questo è un blockquote
+continua su più righe&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.etsy.com/it/listing/4445736971/pacchetto-di-clipart-di-cuccioli-kawaii?gpla=1&amp;amp;gao=1&amp;amp;&amp;amp;utm_source=google&amp;amp;utm_medium=cpc&amp;amp;utm_campaign=shopping_it_it_it_-art_and_collectibles&amp;amp;utm_custom1=_k_CjwKCAjwwrPVBhA1EiwAv_YO-QEw5sd2wUcJ3M7wNYS6b-3OmMzCdWIou7nT412eiu7pjn1xEQqXTxoCOBgQAvD_BwE_k_&amp;amp;utm_content=go_21711270848_167738764739_713819064414_aud-2422713371243:pla-314954651933_c__4445736971itit_432422386&amp;amp;utm_custom2=21711270848&amp;amp;gad_source=1&amp;amp;gad_campaignid=21711270848&amp;amp;gbraid=0AAAAADutTMcDAdsG5BBi-31cvGpw7xvn9&amp;amp;gclid=CjwKCAjwwrPVBhA1EiwAv_YO-QEw5sd2wUcJ3M7wNYS6b-3OmMzCdWIou7nT412eiu7pjn1xEQqXTxoCOBgQAvD_BwE&#34;&gt;testo del link&lt;/a&gt;
+&lt;img alt=&#34;testo alternativo&#34; loading=&#34;lazy&#34; src=&#34;https://i.etsystatic.com/61556975/r/il/ac01c4/7679677105/il_794xN.7679677105_th3u.jpg&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;Voce puntata&lt;/li&gt;
+&lt;li&gt;Un&amp;rsquo;altra voce
+&lt;ul&gt;
+&lt;li&gt;Sotto-voce (indentata)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;Voce numerata&lt;/li&gt;
+&lt;li&gt;Seconda voce&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;grassetto&lt;/strong&gt;
+&lt;em&gt;corsivo&lt;/em&gt;
+&lt;em&gt;&lt;strong&gt;grassetto e corsivo&lt;/strong&gt;&lt;/em&gt;
+&lt;del&gt;testo barrato&lt;/del&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;titolo-1&#34;&gt;Titolo 1&lt;/h1&gt;
+&lt;h2 id=&#34;titolo-2&#34;&gt;Titolo 2&lt;/h2&gt;
+&lt;h3 id=&#34;titolo-3&#34;&gt;Titolo 3&lt;/h3&gt;</description>
+    </item>
+  </channel>
+</rss>
