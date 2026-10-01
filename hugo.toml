@@ -10,13 +10,13 @@ description='Un blog arrabbiatino'
   [[menu.main]]
     identifier = "about"
     name = "Chi sono"
-    url = "/about/"
+    url = "about/"
     weight = 10
 
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/posts/"
+    url = "posts/"
     weight = 20
 
 
@@ -27,20 +27,20 @@ description='Un blog arrabbiatino'
     enabled = true
     title = "Il Condo al Montrario"
     subtitle = "Un blog arrabbiatino"
-    imageUrl = "/images/avatar.png"
+    imageUrl = "images/avatar.png"
     imageWidth = 120
     imageHeight = 120
     imageTitle = "Avatar"
     buttonText = "Vai al blog"
-    buttonUrl = "/posts"
+    buttonUrl = "posts"
 
     [[params.profileMode.buttons]]
       name = "Blog"
-      url = "/posts/"
+      url = "posts/"
 
     [[params.profileMode.buttons]]
       name = "Chi sono"
-      url = "/about/"
+      url = "about/"
 
     [[params.socialIcons]]
     name = "github"
@@ -48,4 +48,4 @@ description='Un blog arrabbiatino'
 
     [[params.socialIcons]]
     name = "rss"
-    url = "/index.xml"
+    url = "index.xml"
