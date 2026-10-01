@@ -1,0 +1,45 @@
+<div id="giscus-container"></div>
+
+<script>
+(function() {
+  function getCurrentTheme() {
+    const attr = document.documentElement.getAttribute('data-theme');
+    return attr === 'dark' ? 'dark' : 'light';
+  }
+
+  const script = document.createElement('script');
+  script.src = 'https://giscus.app/client.js';
+  script.setAttribute('data-repo', 'ilcondoalmontrario/il_condo_al_montrario');
+  script.setAttribute('data-repo-id', 'R_kgDOUf4cvA');
+  script.setAttribute('data-category', 'Comments');
+  script.setAttribute('data-category-id', 'DIC_kwDOUf4cvM4DGv_r');
+  script.setAttribute('data-mapping', 'pathname');
+  script.setAttribute('data-strict', '0');
+  script.setAttribute('data-reactions-enabled', '1');
+  script.setAttribute('data-emit-metadata', '0');
+  script.setAttribute('data-input-position', 'bottom');
+  script.setAttribute('data-theme', getCurrentTheme());
+  script.setAttribute('data-lang', 'it');
+  script.setAttribute('crossorigin', 'anonymous');
+  script.async = true;
+
+  document.getElementById('giscus-container').appendChild(script);
+})();
+</script>
+
+<script>
+function setGiscusTheme(theme) {
+  const iframe = document.querySelector('iframe.giscus-frame');
+  if (!iframe) return;
+  iframe.contentWindow.postMessage(
+    { giscus: { setConfig: { theme: theme === 'dark' ? 'dark' : 'light' } } },
+    'https://giscus.app'
+  );
+}
+
+const observer = new MutationObserver(() => {
+  const theme = document.documentElement.getAttribute('data-theme');
+  setGiscusTheme(theme === 'dark' ? 'dark' : 'light');
+});
+observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+</script>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Project</title>
+    <title>Posts on Il Condo al Montrario</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Project</description>
+    <description>Recent content in Posts on Il Condo al Montrario</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 18 Sep 2026 10:34:21 +0200</lastBuildDate>
@@ -38,7 +38,7 @@
 continua su più righe&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.etsy.com/it/listing/4445736971/pacchetto-di-clipart-di-cuccioli-kawaii?gpla=1&amp;amp;gao=1&amp;amp;&amp;amp;utm_source=google&amp;amp;utm_medium=cpc&amp;amp;utm_campaign=shopping_it_it_it_-art_and_collectibles&amp;amp;utm_custom1=_k_CjwKCAjwwrPVBhA1EiwAv_YO-QEw5sd2wUcJ3M7wNYS6b-3OmMzCdWIou7nT412eiu7pjn1xEQqXTxoCOBgQAvD_BwE_k_&amp;amp;utm_content=go_21711270848_167738764739_713819064414_aud-2422713371243:pla-314954651933_c__4445736971itit_432422386&amp;amp;utm_custom2=21711270848&amp;amp;gad_source=1&amp;amp;gad_campaignid=21711270848&amp;amp;gbraid=0AAAAADutTMcDAdsG5BBi-31cvGpw7xvn9&amp;amp;gclid=CjwKCAjwwrPVBhA1EiwAv_YO-QEw5sd2wUcJ3M7wNYS6b-3OmMzCdWIou7nT412eiu7pjn1xEQqXTxoCOBgQAvD_BwE&#34;&gt;testo del link&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://adityatelange.github.io/hugo-PaperMod/posts/markdown-syntax/&#34;&gt;markdown syntax di papermod&lt;/a&gt;
 &lt;img alt=&#34;testo alternativo&#34; loading=&#34;lazy&#34; src=&#34;https://i.etsystatic.com/61556975/r/il/ac01c4/7679677105/il_794xN.7679677105_th3u.jpg&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;

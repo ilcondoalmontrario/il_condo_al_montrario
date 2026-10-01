@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Project</title>
+    <title>Il Condo al Montrario</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Project</description>
+    <description>Recent content on Il Condo al Montrario</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 18 Sep 2026 10:34:21 +0200</lastBuildDate>
@@ -38,7 +38,7 @@
 continua su più righe&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.etsy.com/it/listing/4445736971/pacchetto-di-clipart-di-cuccioli-kawaii?gpla=1&amp;amp;gao=1&amp;amp;&amp;amp;utm_source=google&amp;amp;utm_medium=cpc&amp;amp;utm_campaign=shopping_it_it_it_-art_and_collectibles&amp;amp;utm_custom1=_k_CjwKCAjwwrPVBhA1EiwAv_YO-QEw5sd2wUcJ3M7wNYS6b-3OmMzCdWIou7nT412eiu7pjn1xEQqXTxoCOBgQAvD_BwE_k_&amp;amp;utm_content=go_21711270848_167738764739_713819064414_aud-2422713371243:pla-314954651933_c__4445736971itit_432422386&amp;amp;utm_custom2=21711270848&amp;amp;gad_source=1&amp;amp;gad_campaignid=21711270848&amp;amp;gbraid=0AAAAADutTMcDAdsG5BBi-31cvGpw7xvn9&amp;amp;gclid=CjwKCAjwwrPVBhA1EiwAv_YO-QEw5sd2wUcJ3M7wNYS6b-3OmMzCdWIou7nT412eiu7pjn1xEQqXTxoCOBgQAvD_BwE&#34;&gt;testo del link&lt;/a&gt;
+&lt;p&gt;&lt;a href=&#34;https://adityatelange.github.io/hugo-PaperMod/posts/markdown-syntax/&#34;&gt;markdown syntax di papermod&lt;/a&gt;
 &lt;img alt=&#34;testo alternativo&#34; loading=&#34;lazy&#34; src=&#34;https://i.etsystatic.com/61556975/r/il/ac01c4/7679677105/il_794xN.7679677105_th3u.jpg&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;ul&gt;
@@ -62,6 +62,41 @@ continua su più righe&lt;/p&gt;
 &lt;h1 id=&#34;titolo-1&#34;&gt;Titolo 1&lt;/h1&gt;
 &lt;h2 id=&#34;titolo-2&#34;&gt;Titolo 2&lt;/h2&gt;
 &lt;h3 id=&#34;titolo-3&#34;&gt;Titolo 3&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title>Chi sono?</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Sono un uomo nato negli anni 80 (maschio bianco etero cis, direbbero gli esperti)&lt;/li&gt;
+&lt;li&gt;Non mi sono laureato (troppa poca voglia di studiare al tempo)&lt;/li&gt;
+&lt;li&gt;Sono mediamente ignorante, leggo poco, scrivo ancora meno e scrivo male (conosco bene solo le cose che mi interessano e che ho approfondito da grande, ma per tornare al discorso di prima, quando c&amp;rsquo;era da studiare a scuola, non ne ho avuto molta voglia)&lt;/li&gt;
+&lt;li&gt;Abuso delle parentesi quando scrivo (non me ne sto vantando, è così e basta)&lt;/li&gt;
+&lt;li&gt;Lavoro nell&amp;rsquo;informatica (mi sento bravino, anzi, mi sentivo)&lt;/li&gt;
+&lt;li&gt;Ho un bimbo nato nel 2025 (sì, lo so, sarò un padre attempato)&lt;/li&gt;
+&lt;li&gt;Considero la politica una cosa molto importante per il funzionamento di ogni aspetto della società (sono convinto sia così, tu no?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;perché-sono-qui-adesso&#34;&gt;Perché sono qui adesso?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Perché non vedo un futuro per questo paese (e non mi considero un pessimista)&lt;/li&gt;
+&lt;li&gt;Perché mi sembra assurdo avere un bimbo piccolo e già immaginare che appena potrà avrà voglia di andarsene dall&amp;rsquo;Italia (e per quanto possa essere contento per lui, già mi piange il cuore)&lt;/li&gt;
+&lt;li&gt;Perché ho voglia di sfogarmi (e non voglio ammorbare sempre le persone che ho intorno, con i miei discorsi critici sul mondo che ci circonda)&lt;/li&gt;
+&lt;li&gt;Perché non so chi votare alle prossime elezioni (vi siete guardati in giro? Io purtroppo sì)&lt;/li&gt;
+&lt;li&gt;Perché inizio a vedere l&amp;rsquo;astensione al voto come una cosa rassicurante (non mi sono mai astenuto, eh).
+Non lo dico come quegli astensionisti del cazzo che se ne vantano perché non hanno voglia di informarsi. Lo dico perché ho letto troppi articoli e ascoltato troppi podcast.&lt;/li&gt;
+&lt;li&gt;Perché mi sento un pesce fuori d&amp;rsquo;acqua quando sento persone che convintamente votano il campo largo, o Vannacci [o che apprezzano Fabrizio Corona che annuncia il suo movimento (questo testo lo sto scrivendo a settembre 2025, cercate di capire la mia frustrazione)]&lt;/li&gt;
+&lt;li&gt;Perché anche la faccenda dell&amp;rsquo;IA mi sta rendendo nervoso e frustrato (l&amp;rsquo;unica cosa che sapevo fare nella vita, il mio lavoro, la fa già molto meglio di me. Non penso che mi ruberà il lavoro, però penso che me lo rovinerà, anzi me lo sta già rovinando)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Mi ripeto, l&amp;rsquo;IA mi sta preoccupando, perché le voci che parlano di come ci ucciderà sono sicuramente clickbait catastrofisti, ma siamo sicuri che l&amp;rsquo;aumento della produttività non vada a discapito della capacità di usare i nostri cervelli? (io ci tengo al mio)&lt;/li&gt;
+&lt;li&gt;Perché considero la politica una cosa importante (forse l&amp;rsquo;ho già detto, ma visto che qui parlerò principalmente di quello, metto le mani avanti)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Se vi state chiedendo se questo significa che non userò l&amp;rsquo;IA per questo progetto, la risposta è ni.&lt;br&gt;
+Mi farò aiutare nella revisione dei testi per cercare eventuali errori di digitazione o frasi senza senso (l&amp;rsquo;ho già detto che sono ignorante?) e nella creazione/modifica di eventuali immagini.&lt;br&gt;
+Le idee saranno mie.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,4 +1,51 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Il Condo al Montrario'
 theme = 'PaperMod' 
+languageCode = 'it'
+description='Un blog arrabbiatino'
+
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "Chi sono"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 20
+
+
+[params]
+  comments = true
+  
+  [params.profileMode]
+    enabled = true
+    title = "Il Condo al Montrario"
+    subtitle = "Un blog arrabbiatino"
+    imageUrl = "/images/avatar.png"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "Avatar"
+    buttonText = "Vai al blog"
+    buttonUrl = "/posts"
+
+    [[params.profileMode.buttons]]
+      name = "Blog"
+      url = "/posts"
+
+    [[params.profileMode.buttons]]
+      name = "Chi sono"
+      url = "/about"
+
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ilcondoalmontrario"
+
+    [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
