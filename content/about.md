@@ -3,6 +3,7 @@ title: "Chi sono?"
 draft: false
 hidemeta: true
 ShowToc: false
+comments: false
 ---
 
 - Sono un uomo nato negli anni 80 (maschio bianco etero cis, direbbero gli esperti)

@@ -232,7 +232,51 @@ continua su più righe</p>
   <footer class="post-footer">
     <ul class="post-tags">
     </ul>
-  </footer>
+  </footer><div id="giscus-container"></div>
+
+<script>
+(function() {
+  function getCurrentTheme() {
+    const attr = document.documentElement.getAttribute('data-theme');
+    return attr === 'dark' ? 'dark' : 'light';
+  }
+
+  const script = document.createElement('script');
+  script.src = 'https://giscus.app/client.js';
+  script.setAttribute('data-repo', 'ilcondoalmontrario/il_condo_al_montrario');
+  script.setAttribute('data-repo-id', 'R_kgDOUf4cvA');
+  script.setAttribute('data-category', 'Comments');
+  script.setAttribute('data-category-id', 'DIC_kwDOUf4cvM4DGv_r');
+  script.setAttribute('data-mapping', 'pathname');
+  script.setAttribute('data-strict', '0');
+  script.setAttribute('data-reactions-enabled', '1');
+  script.setAttribute('data-emit-metadata', '0');
+  script.setAttribute('data-input-position', 'bottom');
+  script.setAttribute('data-theme', getCurrentTheme());
+  script.setAttribute('data-lang', 'it');
+  script.setAttribute('crossorigin', 'anonymous');
+  script.async = true;
+
+  document.getElementById('giscus-container').appendChild(script);
+})();
+</script>
+
+<script>
+function setGiscusTheme(theme) {
+  const iframe = document.querySelector('iframe.giscus-frame');
+  if (!iframe) return;
+  iframe.contentWindow.postMessage(
+    { giscus: { setConfig: { theme: theme === 'dark' ? 'dark' : 'light' } } },
+    'https://giscus.app'
+  );
+}
+
+const observer = new MutationObserver(() => {
+  const theme = document.documentElement.getAttribute('data-theme');
+  setGiscusTheme(theme === 'dark' ? 'dark' : 'light');
+});
+observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+</script>
 </article>
     </main>
     
@@ -249,7 +293,7 @@ continua su più righe</p>
 	
     <span>
         &middot; Attacati a 'sto feed
-	<a href="http://localhost:1313/index.xml" title="RSS" aria-label="RSS" style="display:inline-flex; height:1.2rem; width:1.2rem; vertical-align:middle;">
+	<a href="http://localhost:1313/index.xml" title="RSS" aria-label="RSS" target="_blank" style="display:inline-flex; height:1.2rem; width:1.2rem; vertical-align:middle;">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
     <path d="M4 11a9 9 0 0 1 9 9" />
