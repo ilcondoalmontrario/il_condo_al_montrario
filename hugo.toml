@@ -22,7 +22,7 @@ description='Un blog arrabbiatino'
 
 [params]
   comments = true
-  
+
   [params.profileMode]
     enabled = true
     title = "Il Condo al Montrario"
@@ -36,11 +36,11 @@ description='Un blog arrabbiatino'
 
     [[params.profileMode.buttons]]
       name = "Blog"
-      url = "/posts"
+      url = "/posts/"
 
     [[params.profileMode.buttons]]
       name = "Chi sono"
-      url = "/about"
+      url = "/about/"
 
     [[params.socialIcons]]
     name = "github"
